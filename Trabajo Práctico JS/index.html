@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+    <p>Primer parrafo</p>
+    <p>Segundo parrafo</p>
+    <p>Tercer parrafo</p>
+    <button id="cambiarColor">Cambiar color a azul</button>
+    <br />
+    <form id="miFormulario">
+      <label for="texto">Ingresa algo:</label>
+      <input type="text" id="textoIngresado" name="texto" />
+      <button type="button" id="mostrarCartel">Mostrar Valor</button>
+    </form>
+    <ul id="miLista">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+    </ul>
+
+    <label for="campoTexto">Campo de texto:</label>
+    <input type="text" id="campoTexto" />
+    <button id="deshabilitar">Deshabilitar</button>
+    <button id="habilitar">Habilitar</button>
+
+    <form id="formCorreo">
+      <label for="correo">Ingresa tu correo electrónico: </label>
+      <input type="email" id="campoCorreo" />
+      <button id="guardarCorreo">Guardar Correo</button>
+    </form>
+
+    <div id="correoGuardado"></div>
+    <button id="eliminarCorreo" style="display: none">Eliminar correo</button>
+  </body>
+  <script src="./localStorage/ejercicio1.js"></script>
+</html>
